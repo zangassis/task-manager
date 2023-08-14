@@ -24,7 +24,7 @@ Follow these steps to set up and run the TaskManager application on your system:
 
 ## Application Overview 📑
 
-The TaskManager app demonstrates the basic functionality of managing tasks. You can add, edit, and delete tasks through simple API endpoints.
+The TaskManager app demonstrates the basic functionality of managing tasks.
 
 ## Debugging in Visual Studio 🛠️
 
