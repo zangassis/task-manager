@@ -2,7 +2,7 @@
  
 This project contains a sample ASP.NET Core app. This app is an example of the article I produced for the Telerik Blog (telerik.com/blogs).
 
-Welcome to the TaskManager application! This minimal ASP.NET Core .NET 7 app serves as a fantastic example for debugging in Visual Studio on Windows. 🚀
+Welcome to the TaskManager application! This minimal ASP.NET Core .NET 7 app serves as an example for debugging in Visual Studio on Windows. 🚀
 
 ## Getting Started 🚀
 
