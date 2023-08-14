@@ -1,4 +1,6 @@
-﻿# TaskManager ASP.NET Core .NET 7 Minimal API 📋🔍🖥️
+﻿# TaskManager 📋🔍🖥️
+ 
+This project contains a sample ASP.NET Core app. This app is an example of the article I produced for the Telerik Blog (telerik.com/blogs).
 
 Welcome to the TaskManager application! This minimal ASP.NET Core .NET 7 app serves as a fantastic example for debugging in Visual Studio on Windows. 🚀
 
@@ -9,7 +11,7 @@ Follow these steps to set up and run the TaskManager application on your system:
 1. **Clone the Repository**: Start by cloning this repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/TaskManager.git
+   git clone https://github.com/zangassis/task-manager
    ```
 
 2. **Open in Visual Studio**: Launch Visual Studio and open the `TaskManager.sln` solution file.
@@ -30,16 +32,15 @@ This project is an excellent resource for learning how to debug ASP.NET Core app
 
 ## API Endpoints 🌐
 
-- `GET /api/tasks`: Get a list of all tasks.
-- `GET /api/tasks/{id}`: Get a specific task by ID.
-- `POST /api/tasks`: Create a new task.
-- `PUT /api/tasks/{id}`: Update an existing task.
-- `DELETE /api/tasks/{id}`: Delete a task.
+- `GET /tasks`: Get a list of all tasks.
+- `GET /tasks/{name}`: Get a specific task by name.
 
 ## Technologies Used 💻
 
-- ASP.NET Core .NET 7 Minimal API
-- Visual Studio
+- ASP.NET Core
+- .NET 7
+- Minimal API
+- Visual Studio for Windows
 - C#
 
 ## Contributing 🤝
