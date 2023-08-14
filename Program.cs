@@ -28,11 +28,25 @@ app.MapGet("/tasks", (TaskService service) =>
 .WithName("FindTasks")
 .WithOpenApi();
 
-app.MapGet("/tasks/{name}", (TaskService service, string name) =>
+static bool ValidateTaskName(string name)
 {
-    var task = service.FindTaskByName(name);
-    return task is null ? Results.NotFound() : Results.Ok(task);
-})
+    var userValid = true;
+
+    if (name.Length < 3)
+        userValid = false;
+
+    return userValid;
+}
+    
+app.MapGet("/tasks/{name}", (TaskService service, string name) =>
+    {
+        name = name.ToUpper();
+
+        if (!ValidateTaskName(name))
+            return Results.BadRequest("The name must have at least 3 characters");
+        var task = service.FindTaskByName(name);
+        return task is null ? Results.NotFound() : Results.Ok(task);
+    })
 .WithName("FindTaskByName")
 .WithOpenApi();
 

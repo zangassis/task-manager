@@ -1,2 +1,55 @@
-# task-manager
-Telerik blog post
+﻿# TaskManager ASP.NET Core .NET 7 Minimal API 📋🔍🖥️
+
+Welcome to the TaskManager application! This minimal ASP.NET Core .NET 7 app serves as a fantastic example for debugging in Visual Studio on Windows. 🚀
+
+## Getting Started 🚀
+
+Follow these steps to set up and run the TaskManager application on your system:
+
+1. **Clone the Repository**: Start by cloning this repository to your local machine.
+
+   ```bash
+   git clone https://github.com/your-username/TaskManager.git
+   ```
+
+2. **Open in Visual Studio**: Launch Visual Studio and open the `TaskManager.sln` solution file.
+
+3. **Build the Solution**: Build the solution to restore NuGet packages and compile the code.
+
+4. **Set Up Debug Configuration**: Make sure your debug configuration is set to target the `TaskManager` project.
+
+5. **Start Debugging**: Press the "Start Debugging" button or hit `F5` to begin debugging the application.
+
+## Application Overview 📑
+
+The TaskManager app demonstrates the basic functionality of managing tasks. You can add, edit, and delete tasks through simple API endpoints.
+
+## Debugging in Visual Studio 🛠️
+
+This project is an excellent resource for learning how to debug ASP.NET Core apps in Visual Studio on a Windows system. Use breakpoints, watch variables, and explore the debugging tools to enhance your debugging skills.
+
+## API Endpoints 🌐
+
+- `GET /api/tasks`: Get a list of all tasks.
+- `GET /api/tasks/{id}`: Get a specific task by ID.
+- `POST /api/tasks`: Create a new task.
+- `PUT /api/tasks/{id}`: Update an existing task.
+- `DELETE /api/tasks/{id}`: Delete a task.
+
+## Technologies Used 💻
+
+- ASP.NET Core .NET 7 Minimal API
+- Visual Studio
+- C#
+
+## Contributing 🤝
+
+Found a bug? Want to add a new feature? We encourage contributions from the community. Feel free to open issues and pull requests.
+
+## License 📄
+
+This project is licensed under the MIT License. Feel free to use and modify the code as per the license terms.
+
+---
+
+Happy Debugging! 🐞✨
